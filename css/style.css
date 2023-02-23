@@ -1,0 +1,422 @@
+/* Global View aka Desktop View */
+/* Body */
+body {
+    font-family: 'Asap', sans-serif;
+    background-color: #EBEBEB;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Header */
+.header-container {
+    background-color: rgba(60, 60, 60, 0.9);
+    min-height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    max-width: 1366px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nav */
+.mybutton {
+    padding: 10px 25px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 0px;
+}
+
+.mybutton:hover {
+    background-color: black;
+}
+
+
+.mob-wrapper {
+    display: none;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 80px;
+}
+
+.hero-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-line {
+    border: 2px solid rgb(60, 60, 60);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* headquarter */
+.headquarter {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px
+}
+
+.headquarter-title {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.headquarter-gallery {
+    display: flex;
+    padding-left: 30px;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.city {
+    text-align: center;
+}
+
+.city-font {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.city-img {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.719);
+    background-size: cover;
+    background-position: center;
+}
+
+.headquarter-line {
+    border: 2px solid rgb(60, 60, 60);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Message */
+.massage-us {
+    width: 100%;
+}
+
+.message-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.form-input-output {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-left: 75px;
+    position: relative;
+}
+
+/* form-input-nama */
+.form-input-nama {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form-label-nama {
+    margin-right: 60px;
+}
+
+.form-colon-nama {
+    margin-right: 10px;
+}
+
+.form-input-nama-isi {
+    width: 245%;
+    height: 25px;
+}
+
+/* form-input-lahir */
+.form-input-lahir {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form-label-lahir {
+    margin-right: 10px;
+}
+
+.form-colon-lahir {
+    margin-right: 10px;
+}
+
+.form-input-lahir-isi {
+    width: 77%;
+    height: 28px;
+}
+
+/* form-input-kelamin */
+.form-input-kelamin {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form-label-kelamin {
+    margin-right: 9px;
+}
+
+.form-colon-kelamin {
+    margin-right: 6px;
+}
+/* form-input-pesan */
+.form-input-pesan {
+    display: flex;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+.form-label-pesan {
+    margin-right: 64px;
+}
+
+.form-colon-pesan {
+    margin-right: 14px;
+}
+
+.form-input-pesan-isi {
+    width: 200%;
+    height: 100px;
+}
+
+/* form-submit */
+.form-submit {
+    padding: 7px 250px;
+    margin-bottom: 50px;
+}
+
+/* form-output */
+.form-output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding-right: 400px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.form-output-nama, .form-output-lahir,  .form-output-kelamin,  .form-output-pesan {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/* Footer */
+
+.footer-container{
+    background-color: rgb(60, 60, 60);
+    min-height: 100px;
+    width: 100%;
+}
+
+footer {
+    max-width: 1366px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-last {
+    text-align: center;
+}
+
+/* laptop */
+@media (max-width:1024px) {
+    .form-input-output {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-input-nama-isi {
+        width: 410%;
+        height: 25px;
+    }
+
+    .form-input-lahir-isi {
+        width: 90%;
+        height: 28px;
+    }
+
+    .form-submit {
+        padding: 7px 390px;
+        margin-bottom: 50px;
+    }
+
+    .form-output {
+        width: auto;
+        margin-left: 50px
+    }
+}
+
+
+/* Tablet View */
+@media (max-width: 768px){
+
+
+    .container {
+        padding-top: 40px;
+    }
+
+    /* Header */
+
+    .header-container {
+        position: relative;
+    }
+
+    .logo {
+        padding: 40px 55px;
+         
+    }
+
+
+    /* Nav */
+    nav {
+        display: none;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    .mybutton {
+        margin-left: 0;
+    }
+
+    .mob-wrapper {
+        display: block;
+        padding-right: 30px;
+    }
+
+    .mob-nav {
+        display: none;
+        position: absolute;
+        padding-top: 10px;
+    }
+
+    .navbutton {
+        display: block;
+        background-color: rgb(53, 169, 18);
+        padding: 15px 30px;
+        margin-left: -70px;
+        text-align: center;
+    }
+
+    .navbutton:hover {
+        background-color: black;
+    }
+
+    .hero {
+        width: 50%;
+        margin-top: -140px;
+    }
+
+
+    /* Main */
+    .form-input-output {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-output {
+        width: auto;
+        margin-left: 50px
+    }
+}
+
+
+@media (max-width: 600px){
+    .headquarter-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-input-nama-isi {
+        width: 200%;
+        height: 25px;
+    }
+
+    .form-submit {
+        padding: 7px 200px;
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Mobile View */
+@media (max-width: 400px){
+    /* Main */
+    .headquarter-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #message {
+        margin-left: -40px;
+    }
+
+    .form-input-output {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-submit {
+        padding: 7px 150px;
+    }
+
+    .form-output {
+        width: auto;
+        margin-left: -40px;
+    }
+
+    .form-input-nama-isi{
+        width: 130%;
+    }
+
+}
+
