@@ -1,4 +1,5 @@
 # mini-coding-project-sefc
+
 website link : <a href="https://alfiannurhudaputra.github.io/mini-coding-project-sefc/">Mini Coding Project - Software Engineering Fundamental Course</a>
 
 <h3>Created by :</h3>
@@ -26,5 +27,5 @@ website link : <a href="https://alfiannurhudaputra.github.io/mini-coding-project
   <img src="https://github.com/alfiannurhudaputra/mini-coding-project-sefc/assets/63383625/8fbec47a-7bcc-4f7b-a828-6c95acf1b825" alt="portfolio">
   <li><b>Message Us</b></li>
   <br />
-  <img src="https://github.com/alfiannurhudaputra/mini-coding-project-sefc/assets/63383625/8fbec47a-7bcc-4f7b-a828-6c95acf1b825" alt="portfolio">
+  <img src="https://github.com/alfiannurhudaputra/mini-coding-project-sefc/assets/63383625/8fbec47a-7bcc-4f7b-a828-6c95acf1b825" alt="message-us">
 </ol>
