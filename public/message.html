@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- character set  -->
+    <meta charset="UTF-8">
+
+    <!-- let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- web title -->
+    <title>Alfian Website</title>
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- import google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="../css/css-reset.css">
+    <link rel="stylesheet" href="../css/message.css">
+</head>
+
+<body>
+    <!-- header-menu -->
+    <header>
+        <section id="header-section">
+            <div class="header-container">
+                <!-- brand -->
+                <div><a href="../index.html"><img class="logo" src="../assets/revou.svg" alt="Gambar RevoU"></a></div>
+                <!-- destktop navigation -->
+                <nav>
+                    <a href="../index.html" class="mybutton"><i class="fa-solid fa-house"></i> Home</a>
+                    <a href="../public/our-profile.html" class="mybutton"><i class="fa-solid fa-user"></i> Our Profile</a>
+                    <a href="../public/portfolio.html" class="mybutton"><i class="fa-solid fa-briefcase"></i> Portofolio</a>
+                    <a href="../public/message.html" class="mybutton"><i class="fa-solid fa-envelope"></i> Message Us</a>
+                </nav>
+                <!-- mobile navigation -->
+                <div class="mob-wrapper">
+                    <img src="../assets/icon-burger-menu.svg" alt="Mobile Menu Icon" style="width: 40px;"
+                        class="burgermenu">
+                    <div class="mob-nav">
+                        <a href="../index.html" class="navbutton"><i class="fa-solid fa-house"></i> Home</a>
+                        <a href="../public/our-profile.html" class="navbutton"><i class="fa-solid fa-user"></i> Our Profile</a>
+                        <a href="../public/portfolio.html" class="navbutton"><i class="fa-solid fa-briefcase"></i> Portofolio</a>
+                        <a href="../public/message.html" class="navbutton"><i class="fa-solid fa-envelope"></i> Message Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <!-- main-menu -->
+    <main>
+        <!-- message-->
+        <section id="message-section">
+            <div class="container">
+                <div class="message-title">
+                    <h1><i class="fa-solid fa-envelope"></i> Message Us</h1>
+                </div>
+                <div class="message-box">
+                    <div class="input-box">
+                        <!-- form input -->
+                        <form name="input-form" onsubmit="send(); return false">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td><label for="name1">Nama</label></td>
+                                        <td> :
+                                            <input type="text" name="name1" id="name1" class="label-name"
+                                                placeholder="Masukan Nama" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="date1">Tanggal Lahir</label></td>
+                                        <td> :
+                                            <input type="date" name="date1" id="date1" class="label-date" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="gender1">Jenis Kelamin</label></td>
+                                        <td> :
+                                            <input type="radio" name="gender1" id="male1" value="Laki-laki"
+                                                class="male-gender" required><label for="male">Laki-laki</label>
+                                            <input type="radio" name="gender1" id="female1" value="Perempuan" required
+                                                class="female-gender"><label for="female">Perempuan</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-message"><label for="message1">Pesan</label></td>
+                                        <td> :
+                                            <textarea name="message1" id="message1" cols="30" rows="5"
+                                                class="textarea-message" placeholder="Tuliskan Pesan"></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <input type="submit" name="submit" value="submit">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                    <!-- form output -->
+                    <div class="output-box">
+                        <table>
+                            <tr>
+                                <td><label for="time">Waktu</label></td>
+                                <td>:
+                                    <span id="time"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="name2">Nama</label></td>
+                                <td>:
+                                    <span id="name2"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="date2">Tanggal Lahir</label></td>
+                                <td>:
+                                    <span id="date2"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="gender2">Jenis Kelamin</label></td>
+                                <td>:
+                                    <span id="gender2"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="message2">Pesan</label></td>
+                                <td>:
+                                    <span id="message2"></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer-menu -->
+    <footer>
+        <section id="footer-section">
+            <div class="container">
+                <div class="footer-location">
+                    <!-- left -->
+                    <div class="footer-left">
+                        <a href="#" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a>
+                        <a href="https://github.com/alfiannurhudaputra" target="_blank"><i
+                                class="fa-brands fa-github fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/alfiannurhudaputra/" target="_blank"><i
+                                class="fa-brands fa-linkedin fa-2x"></i></a>
+                        <a href="https://alfiannurhudaputra.github.io/" target="_blank"><i
+                                class="fa-solid fa-blog fa-2x"></i></a>
+                    </div>
+                    <!-- center -->
+                    <div class="footer-center">
+                        <p class="p-one">© 2023 Alfian Nurhuda Putra | RevoU - All rights reserved.</p>
+                        <p class="p-two"><i class="fa-solid fa-circle-info"></i> Software Engineering Fundamental Course
+                        </p>
+                    </div>
+                    <!-- right -->
+                    <div class="footer-right">
+                        <p><i class="fa-solid fa-code"></i> Powered by HTML/CSS and JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- burgermenu cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <!-- my javascript -->
+    <script src="../js/scripts.js"></script>
+
+</body>
+
+</html>

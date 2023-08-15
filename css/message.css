@@ -11,20 +11,9 @@ a {
 }
 
 h1 {
-    padding-top: 90px;
     font-weight: 600;
     font-size: 2.125rem;
-}
-
-h2 {
-    font-weight: 500;
-    font-size: 1.875rem;
-    padding: 20px 0;
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-weight: 500;
+    padding-top: 106px;
 }
 
 /* all container */
@@ -77,94 +66,95 @@ header {
 }
 
 /* main-menu */
-/* about-company */
-.about-title h1 {
-    padding: 164px 0px 40px;
-    text-align: center;
+/* message */
+#message-section {
+    padding: 50px 0px 80px;
 }
 
-#visi-misi {
-    background-color: #EEEDED;
+.message-title {
+    margin: 10px 0 30px;
+    line-height: 1.8em;
 }
 
-.visi-misi {
-    background-color: #F5F5F5;
+.message-box {
     display: flex;
-    margin: 10px 0 60px;
-    padding: 40px 20px;
-    justify-content: center;
-    align-items: center;
+    font-size: 0.9688rem;
 }
 
-.img {
-    margin: 40px 20px;
-    width: 25%;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.719);
+.input-box {
+    width: 50%;
 }
 
-.visi-misi-text {
-    width: 75%;
-    margin: 0px 90px;
-    text-align: justify;
-    line-height: 25px;
-}
-
-.visi-misi-text h3 {
-    font-weight: 600;
-    padding: 20px 0;
-}
-
-.visi-misi-text p {
-    padding: 0 0 30px;
-}
-
-.visi-misi-text ol {
-    margin-left: 20px;
-}
-
-.visi-misi-text ol li {
-    list-style-type: decimal;
-    margin-right: 30px;
-}
-
-/* value-company */
-#aspect {
-    background-color: #EEEDED;
-    
-}
-
-.aspect {
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.aspect-title {
-    margin: 50px 0;
-}
-
-.aspect-subtitle {
-    margin: 40px 0;
-    text-align: center;
-}
-
-.backgroud-aspect {
-    background-color: #F5F5F5;
-    padding: 90px 90px;
-    margin-bottom: 120px;
-}
-
-.aspect-img {
+.input-box table {
     width: 100%;
-    height: auto;
+}
+
+.input-box table td {
+    padding: 10px 0;
+}
+
+.label-name,
+.label-date {
+    font-size: 0.875rem;
+    width: 80%;
+    height: 25px;
+    margin: 0 15px;
+    border: 1px solid black;
+}
+
+.male-gender {
+    margin: 0 5px 0 15px;
+}
+
+.female-gender {
+    margin: 0 5px 0 15px;
+}
+
+.text-message {
+    vertical-align: top;
+}
+
+.textarea-message {
+    width: 80%;
+    height: 100px;
+    font-size: 0.875rem;
+    margin: 0 15px;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.input-box table input[name="submit"] {
+    font-size: 0.875rem;
+    width: 90%;
+    background-color: #FEDE3E;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.input-box table input[name="submit"]:hover {
+    background-color: #F3D22B;
+    cursor: pointer;
+}
+
+.output-box {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.output-box table td {
+    padding: 12px;
 }
 
 /* footer-menu */
 footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
     height: 120px;
     border-top: 2px solid black;
     color: #F6F7FC;
@@ -222,31 +212,33 @@ footer .footer-right {
         width: 90%;
     }
 
+    /* main-menu */
+    /* message */
+    #message-section .container {
+        width: 90%;
+    }
+
     /* footer-menu */
     #footer-section .container {
         width: 90%;
     }
 
     footer .footer-left a {
-        font-size: 12px;
         margin: 0px 10px;
-    }
-
-    footer .footer-center {
-        font-size: 1em;
-    }
-
-    .p-two {
-        font-size: 12px;
-    }
-
-    footer .footer-right {
-        font-size: 12px;
     }
 }
 
 /* responsive for 992 */
 @media (max-width: 992px) {
+    /* body */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
     /* header-menu */
     .header-container {
         width: 85%;
@@ -279,7 +271,6 @@ footer .footer-right {
         color: black;
         padding: 12px 30px;
         margin: 0 0 0 -123px;
-        ;
         text-align: left;
     }
 
@@ -290,23 +281,40 @@ footer .footer-right {
     }
 
     /* main-menu */
-    /* about-company */
-    .visi-misi {
-        display: flex;
-        flex-direction: column;
+    /* message */
+    .message-box {
+        font-size: 0.8125rem;
+        line-height: 20px
     }
 
-    .img {
-        width: 50%;
-        height: auto;
+    .label-name,
+    .label-date {
+        font-size: 0.75rem;
+        width: 70%;
     }
 
-    .visi-misi-text {
-        width: 100%
+    .male-gender {
+        margin: 0 5px 0 5px;
     }
 
+    .female-gender {
+        margin: 0 5px 0 5px;
+    }
+
+    .textarea-message {
+        font-size: 0.75rem;
+        width: 70%;
+    }
+
+    .input-box table input[name="submit"] {
+        width: 85%;
+    }
 
     /* footer-menu */
+    footer {
+        font-size: 0.75rem;
+    }
+
     footer .footer-left a {
         line-height: 25px;
     }
@@ -314,41 +322,6 @@ footer .footer-right {
 
 /* responsive for 600 */
 @media (max-width: 600px) {
-    /* body */
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    h3 {
-        font-size: 1rem;
-    }
-
-    /* main-menu */
-    /* about-company */
-    .visi-misi-text p {
-        font-size: 14px;
-    }
-
-    .visi-misi-text ol li {
-        font-size: 14px;
-    }
-
-    /* footer-menu */
-    footer {
-        height: 160px;
-    }
-
-    footer .footer-right {
-        text-align: center;
-    }
-}
-
-/* responsive for 400 */
-@media (max-width: 400px) {
     /* body */
     h1 {
         font-size: 1.3rem;
@@ -359,6 +332,69 @@ footer .footer-right {
     }
 
     /* main-menu */
+    /* message */
+    #message-section {
+        padding: 50px 0 6 0px;
+    }
+
+    .message-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-box {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .label-name,
+    .label-date {
+        width: 85%;
+    }
+
+    .textarea-message {
+        width: 85%;
+    }
+
+    .male-gender {
+        margin: 0 5px 0 16px;
+    }
+
+    .female-gender {
+        margin: 0 5px 0 16px;
+    }
+
+    .input-box table input[name="submit"] {
+        width: 95%;
+    }
+
+    .output-box {
+        width: 100%;
+    }
+
+    /* footer-menu */
+    footer {
+        font-size: 0.6875rem;
+        height: 160px;
+    }
+
+    footer .footer-right {
+        text-align: center;
+    }
+
+    .p-one {
+        font-size: 0.75rem;
+    }
+}
+
+/* responsive for 400 */
+@media (max-width: 400px) {
+    /* header-menu */
+    .hero-p {
+        font-size: 13px;
+    }
 
     /* footer-menu */
     footer {
@@ -368,9 +404,6 @@ footer .footer-right {
 
 /* responsive for 350 */
 @media (max-width: 350px) {
-
-    /* main-menu */
-
     /* footer-menu */
     footer {
         padding-top: 30px;
