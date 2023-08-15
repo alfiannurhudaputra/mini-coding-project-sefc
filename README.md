@@ -1,14 +1,15 @@
 # mini-coding-project-sefc
-link website : <a href="https://alfiannurhudaputra.github.io/mini-coding-project-sefc/">Mini Coding Project - Software Engineering Fundamental Course</a>
+website link : <a href="https://alfiannurhudaputra.github.io/mini-coding-project-sefc/">Mini Coding Project - Software Engineering Fundamental Course</a>
 
-<h3>Dibuat dengan :</h3>
+<h3>Created by :</h3>
 <ul>
 	<li><b>HTML & CSS</b></li>
   <li><b>JavaScript</b></li>
   <li><b>Google Font</b></li>
+  <li><b>Fontawesome</b></li>
 </ul>
 
-<h3>Screenshot halaman website :</h3>
+<h3>Screenshot :</h3>
 <ol>
   <li><b>Home Page</b></li>
   <br />
