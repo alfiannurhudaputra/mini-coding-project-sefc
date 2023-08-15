@@ -5,10 +5,6 @@ $(document).ready(function () {
     })
 });
 
-// check visitor name
-// var userName = prompt("Masukan nama Anda dibawah!");
-// document.getElementById("username").innerText = userName;
-
 // sliders
 let slideIndex = 1;
 plusSlide(1);
