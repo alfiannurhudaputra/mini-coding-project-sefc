@@ -376,6 +376,7 @@ footer .footer-right {
 
     /* footer-menu */
     footer {
+        position: relative;
         font-size: 0.6875rem;
         height: 160px;
     }
