@@ -19,12 +19,12 @@ website link : <a href="https://alfiannurhudaputra.github.io/mini-coding-project
 	<br />
 	<li><b>Our Profile</b></li>
 	<br />
-  		<img src="https://github.com/alfiannurhudaputra/mini-coding-project-sefc/assets/63383625/81c7de02-0f9a-434f-b5cf-8752b08ca2c3" alt="our-profile">
+  		<img src="https://github.com/alfiannurhudaputra/mini-coding-project-sefc/assets/63383625/04fdd041-a5de-4e0f-9982-35c70baed402" alt="our-profile">
   	<br />
  	 <br />
   	<li><b>Portofolio</b></li>
  	 <br />
-  		<img src="https://github.com/alfiannurhudaputra/mini-coding-project-sefc/assets/63383625/3b4b7df2-7ac3-4116-8dd4-6739af2ced8c" alt="portfolio">
+  		<img src="https://github.com/alfiannurhudaputra/mini-coding-project-sefc/assets/63383625/a02f42d4-1488-4a59-afae-99ed4f950c9c" alt="portfolio">
 	<br />
   	<br />
   	<li><b>Message Us</b></li>
