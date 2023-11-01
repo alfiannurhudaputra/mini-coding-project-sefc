@@ -1,16 +1,5 @@
 # mini-coding-project-sefc
-
-website link : <a href="https://alfiannurhudaputra.github.io/mini-coding-project-sefc/">Mini Coding Project - Software Engineering Fundamental Course</a>
-
-<h3>Created by :</h3>
-<ul>
-	<li><b>HTML & CSS</b></li>
-	<li><b>JavaScript</b></li>
- 	 <li><b>Google Font</b></li>
-  	<li><b>Fontawesome</b></li>
-</ul>
-
-<h3>Screenshot :</h3>
+<h3>Interface :</h3>
 <ol>
   	<li><b>Home Page</b></li>
 	<br />
